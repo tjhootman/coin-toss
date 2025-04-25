@@ -1,3 +1,5 @@
+"""Module containing a coin class and coin flip function."""
+
 from random import choice
 
 class Coin:
