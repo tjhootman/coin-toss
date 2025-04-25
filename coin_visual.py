@@ -1,3 +1,4 @@
+import plotly.express as px
 from coin import Coin
 
 coin = Coin()
@@ -17,3 +18,6 @@ for outcome in possible_outcomes:
     frequencies[outcome] = frequency
 
 print(frequencies)
+
+fig = px.bar(x=possible_outcomes, y=frequencies)
+fig.show()
