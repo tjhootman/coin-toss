@@ -15,4 +15,3 @@ class Coin:
         """
         self.state = choice(['Heads', 'Tails'])
         return self.state
-    
